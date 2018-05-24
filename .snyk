@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:request:20160119':
+    - level-couch-sync > follow > request:
+        patched: '2018-05-24T01:16:28.510Z'
+    - level-couch-sync > request:
+        patched: '2018-05-24T01:16:28.510Z'
+  'npm:semver:20150403':
+    - level-11 > level-packager > levelup > semver:
+        patched: '2018-05-24T01:16:28.510Z'
